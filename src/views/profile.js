@@ -6,8 +6,6 @@ const Profile = () => {
   const { user } = useAuth0()
   const { name, picture, email } =  user
 
-  console.log('user', user)
-
   return (
     <div>
       <div className='row align-items-center profile-header'>
